@@ -1,0 +1,51 @@
+.predictDiv {
+    width: 100%;
+}
+.formDiv {
+    width: 650px;
+    max-width: 90%;
+    margin: 40px auto;
+}
+
+.formDiv form {
+    padding: 20px;
+    box-shadow: 0 1px 2px 2px #ddd;
+}
+
+.formDiv span, .formDiv p {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.formDiv span {
+    margin: 0;
+    display: block;
+}
+
+.formDiv h3 {
+    font-weight: normal;
+    font-size: 24px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.formDiv button {
+    margin: 0 auto;
+    padding: 5px 40px;
+    display: block;
+}
+
+.tableDiv {
+    margin: 20px auto;
+    width: 650px;
+}
+
+.tableDiv table {
+    border: 1px solid #ddd;
+    width: 100%;
+}
+
+.tableDiv table tr {
+    text-align: center;
+}

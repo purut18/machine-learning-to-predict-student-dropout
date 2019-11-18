@@ -1,0 +1,67 @@
+.mainDiv {
+    width: 100%;
+    padding-top: 100px;
+}
+
+.mainDiv h2 {
+    font-weight: normal;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.mainDiv h4 {
+    font-weight: normal;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.mainDiv .optionsBox {
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.mainDiv .optionsBox a {
+    text-decoration: none !important;
+}
+
+.mainDiv .optionsBox .singleOption {
+    color: rgb(59, 88, 126);
+    text-align: center;
+    padding: 50px;
+    width: 400px;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 1px 2px 2px #ddd;
+}
+
+.mainDiv .optionsBox .singleOption:hover {
+    transform: scale(1.05);
+}
+
+.mainDiv .optionsBox .coming-soon:hover {
+    transform: scale(1);
+}
+
+.mainDiv .optionsBox .singleOption p i {
+    font-size: 80px;
+}
+
+.mainDiv .optionsBox .singleOption .h5 {
+    font-weight: normal;
+}
+
+.coming-soon::after {
+    content: 'Coming Soon';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgb(0, 0, 0, 0.7);
+    color: white;
+    font-size: 24px;
+    width: 400px;
+    height: 100%;
+    padding-top: 90px;
+}
