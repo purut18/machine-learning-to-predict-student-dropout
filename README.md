@@ -1,3 +1,25 @@
+STUDENT DROPOUT PREDICTOR
+
+A machine learning based web app to predict which all students are going to drop out.
+
+Parameters used by he Decision Tree Machine Learning Model are:
+
+1) Gender
+2) Income
+3) Caste
+4) Disabled or not
+5) Class
+6) Marls
+7) Attendance
+
+The project is made using:
+
+1) Flask Python REST API
+2) MongoDB
+3) React.js
+4) Scikit-Learn AI/ML Library
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
